@@ -1,0 +1,962 @@
+WALMART LEETCODE DSA QUESTIONS:
+
+All
+3. Longest Substring Without Repeating Characters
+36.3%
+Med.
+
+146. LRU Cache
+44.3%
+Med.
+
+716. Max Stack
+45.2%
+Hard
+
+121. Best Time to Buy and Sell Stock
+54.7%
+Easy
+
+20. Valid Parentheses
+41.8%
+Easy
+
+49. Group Anagrams
+70.3%
+Med.
+
+1. Two Sum
+55.0%
+Easy
+
+5. Longest Palindromic Substring
+35.2%
+Med.
+
+42. Trapping Rain Water
+64.2%
+Hard
+
+1977. Number of Ways to Separate Numbers
+21.1%
+Hard
+
+2541. Minimum Operations to Make Array Equal II
+32.1%
+Med.
+
+1486. XOR Operation in an Array
+86.6%
+Easy
+
+2071. Maximum Number of Tasks You Can Assign
+33.8%
+Hard
+
+2072. The Winner University
+75.1%
+Easy
+
+3005. Count Elements With Maximum Frequency
+78.2%
+Easy
+
+2179. Count Good Triplets in an Array
+41.9%
+Hard
+
+3090. Maximum Length Substring With Two Occurrences
+64.1%
+Easy
+
+1238. Circular Permutation in Binary Representation
+71.5%
+Med.
+
+3179. Find the N-th Value After K Seconds
+54.1%
+Med.
+
+876. Middle of the Linked List
+80.1%
+Easy
+
+2406. Divide Intervals Into Minimum Number of Groups
+63.7%
+Med.
+
+2449. Minimum Number of Operations to Make Arrays Similar
+61.4%
+Hard
+
+54. Spiral Matrix
+52.8%
+Med.
+
+75. Sort Colors
+66.3%
+Med.
+
+139. Word Break
+47.8%
+Med.
+
+215. Kth Largest Element in an Array
+67.6%
+Med.
+
+15. 3Sum
+36.3%
+Med.
+
+36. Valid Sudoku
+61.6%
+Med.
+
+56. Merge Intervals
+48.7%
+Med.
+
+200. Number of Islands
+61.5%
+Med.
+
+863. All Nodes Distance K in Binary Tree
+65.8%
+Med.
+
+33. Search in Rotated Sorted Array
+42.3%
+Med.
+
+39. Combination Sum
+73.8%
+Med.
+
+41. First Missing Positive
+40.6%
+Hard
+
+53. Maximum Subarray
+51.7%
+Med.
+
+67. Add Binary
+55.1%
+Easy
+
+697. Degree of an Array
+57.1%
+Easy
+
+189. Rotate Array
+42.4%
+Med.
+
+283. Move Zeroes
+62.5%
+Easy
+
+300. Longest Increasing Subsequence
+57.1%
+Med.
+
+4. Median of Two Sorted Arrays
+42.8%
+Hard
+
+22. Generate Parentheses
+76.5%
+Med.
+
+50. Pow(x, n)
+36.4%
+Med.
+
+103. Binary Tree Zigzag Level Order Traversal
+60.9%
+Med.
+
+138. Copy List with Random Pointer
+59.4%
+Med.
+
+198. House Robber
+51.9%
+Med.
+
+739. Daily Temperatures
+66.9%
+Med.
+
+341. Flatten Nested List Iterator
+65.1%
+Med.
+
+347. Top K Frequent Elements
+64.0%
+Med.
+
+407. Trapping Rain Water II
+58.7%
+Hard
+
+460. LFU Cache
+45.8%
+Hard
+
+14. Longest Common Prefix
+44.8%
+Easy
+
+23. Merge k Sorted Lists
+55.7%
+Hard
+
+25. Reverse Nodes in k-Group
+61.9%
+Hard
+
+560. Subarray Sum Equals K
+44.9%
+Med.
+
+48. Rotate Image
+77.1%
+Med.
+
+74. Search a 2D Matrix
+51.7%
+Med.
+
+79. Word Search
+44.6%
+Med.
+
+1052. Grumpy Bookstore Owner
+64.1%
+Med.
+
+199. Binary Tree Right Side View
+65.5%
+Med.
+
+210. Course Schedule II
+52.5%
+Med.
+
+221. Maximal Square
+48.2%
+Med.
+
+841. Keys and Rooms
+74.2%
+Med.
+
+394. Decode String
+60.6%
+Med.
+
+2461. Maximum Sum of Distinct Subarrays With Length K
+42.7%
+Med.
+
+977. Squares of a Sorted Array
+73.1%
+Easy
+
+11. Container With Most Water
+57.1%
+Med.
+
+21. Merge Two Sorted Lists
+66.2%
+Easy
+
+1004. Max Consecutive Ones III
+65.1%
+Med.
+
+545. Boundary of Binary Tree
+46.7%
+Med.
+
+44. Wildcard Matching
+29.3%
+Hard
+
+45. Jump Game II
+41.1%
+Med.
+
+76. Minimum Window Substring
+44.6%
+Hard
+
+84. Largest Rectangle in Histogram
+46.5%
+Hard
+
+90. Subsets II
+58.8%
+Med.
+
+91. Decode Ways
+36.1%
+Med.
+
+97. Interleaving String
+41.3%
+Med.
+
+122. Best Time to Buy and Sell Stock II
+68.8%
+Med.
+
+128. Longest Consecutive Sequence
+47.2%
+Med.
+
+155. Min Stack
+55.8%
+Med.
+
+2625. Flatten Deeply Nested Array
+63.8%
+Med.
+
+207. Course Schedule
+48.4%
+Med.
+
+1143. Longest Common Subsequence
+57.9%
+Med.
+
+227. Basic Calculator II
+45.2%
+Med.
+
+322. Coin Change
+45.7%
+Med.
+
+1249. Minimum Remove to Make Valid Parentheses
+70.2%
+Med.
+
+2291. Maximum Profit From Trading Stocks
+46.4%
+Med.
+
+387. First Unique Character in a String
+63.2%
+Easy
+
+875. Koko Eating Bananas
+48.8%
+Med.
+
+416. Partition Equal Subset Sum
+47.2%
+Med.
+
+921. Minimum Add to Make Parentheses Valid
+74.7%
+Med.
+
+2. Add Two Numbers
+45.3%
+Med.
+
+6. Zigzag Conversion
+50.7%
+Med.
+
+518. Coin Change II
+63.2%
+Med.
+
+7. Reverse Integer
+29.8%
+Med.
+
+9. Palindrome Number
+58.6%
+Easy
+
+12. Integer to Roman
+67.7%
+Med.
+
+525. Contiguous Array
+48.9%
+Med.
+
+32. Longest Valid Parentheses
+35.6%
+Hard
+
+40. Combination Sum II
+57.2%
+Med.
+
+557. Reverse Words in a String III
+83.5%
+Easy
+
+55. Jump Game
+39.1%
+Med.
+
+57. Insert Interval
+42.9%
+Med.
+
+68. Text Justification
+46.9%
+Hard
+
+81. Search in Rotated Sorted Array II
+38.6%
+Med.
+
+88. Merge Sorted Array
+52.2%
+Easy
+
+92. Reverse Linked List II
+49.0%
+Med.
+
+113. Path Sum II
+60.0%
+Med.
+
+116. Populating Next Right Pointers in Each Node
+64.7%
+Med.
+
+117. Populating Next Right Pointers in Each Node II
+54.7%
+Med.
+
+628. Maximum Product of Three Numbers
+45.2%
+Easy
+
+120. Triangle
+58.5%
+Med.
+
+124. Binary Tree Maximum Path Sum
+40.9%
+Hard
+
+131. Palindrome Partitioning
+71.3%
+Med.
+
+647. Palindromic Substrings
+71.2%
+Med.
+
+141. Linked List Cycle
+51.9%
+Easy
+
+151. Reverse Words in a String
+49.8%
+Med.
+
+152. Maximum Product Subarray
+34.5%
+Med.
+
+665. Non-decreasing Array
+25.0%
+Med.
+
+153. Find Minimum in Rotated Sorted Array
+52.1%
+Med.
+
+162. Find Peak Element
+46.3%
+Med.
+
+680. Valid Palindrome II
+42.4%
+Easy
+
+176. Second Highest Salary
+42.9%
+Med.
+
+204. Count Primes
+34.4%
+Med.
+
+1636. Sort Array by Increasing Frequency
+80.1%
+Easy
+
+208. Implement Trie (Prefix Tree)
+67.4%
+Med.
+
+209. Minimum Size Subarray Sum
+48.7%
+Med.
+
+730. Count Different Palindromic Subsequences
+46.3%
+Hard
+
+735. Asteroid Collision
+45.1%
+Med.
+
+224. Basic Calculator
+44.7%
+Hard
+
+1328. Break a Palindrome
+51.5%
+Med.
+
+236. Lowest Common Ancestor of a Binary Tree
+65.5%
+Med.
+
+238. Product of Array Except Self
+67.3%
+Med.
+
+242. Valid Anagram
+66.1%
+Easy
+
+767. Reorganize String
+55.7%
+Med.
+
+279. Perfect Squares
+55.4%
+Med.
+
+295. Find Median from Data Stream
+52.9%
+Hard
+
+298. Binary Tree Longest Consecutive Sequence
+54.0%
+Med.
+
+706. Design HashMap
+65.7%
+Easy
+
+1235. Maximum Profit in Job Scheduling
+54.4%
+Hard
+
+1248. Count Number of Nice Subarrays
+72.3%
+Med.
+
+1768. Merge Strings Alternately
+81.8%
+Easy
+
+362. Design Hit Counter
+69.0%
+Med.
+
+1799. Maximize Score After N Operations
+57.8%
+Hard
+
+373. Find K Pairs with Smallest Sums
+40.4%
+Med.
+
+1282. Group the People Given the Group Size They Belong To
+87.4%
+Med.
+
+881. Boats to Save People
+59.9%
+Med.
+
+409. Longest Palindrome
+55.4%
+Easy
+
+415. Add Strings
+51.7%
+Easy
+
+2390. Removing Stars From a String
+77.3%
+Med.
+
+904. Fruit Into Baskets
+45.5%
+Med.
+
+451. Sort Characters By Frequency
+73.6%
+Med.
+
+2423. Remove Letter To Equalize Frequency
+17.9%
+Easy
+
+503. Next Greater Element II
+65.5%
+Med.
+
+2472. Maximum Number of Non-overlapping Palindrome Substrings
+
+
+
+
+
+
+InterView Experiences:
+
+Walmart
+
+
+### Experience - 1
+
+Round 1 : (Problem Solving)
+
+Ques1 : Tree
+
+6          /          7    10        /       / \        11     11    7
+
+Find avg sum at each level Expected complexity o(N)
+
+[6, 8.5,9.33]
+
+Ques2
+
+Arr1 = {1,2,4,5,10,12,50}  Arr2 = {2,3,4,5,11,12,30}
+
+Max Sum = 2+3+4+5+11+12+50
+
+Get max sum , whenever there is collision of element(both element are same ij both arrays then at that point check left and right values in both the array and take the value from highest array value
+
+Here 1st collision 2 , 4(at this point value in array is left side 2,3 and right side 4, 4 so will take 3,4 in sum etc…..)
+
+Expected complexity : o(N)
+
+Need runnable code…asked to run it on any online editor of your choice ! -> no language barrier
+
+Ques3 Transactional annotation in springboot, diff between put and post , IOC in springBoot
+
+Round2 (Java Round)
+
+Functional interface ..its specifications and explain it with examples ..running code (Ruannable, callable can give examples with running code)
+
+Streams -> Given a use case to sort an Employee list and collect it in map ..first do it without stream then by using stream …what’s the difference in both (need to explain) Stream parallel ?
+
+-> What are the ways to create multithreading env ?
+
+Approaches need to impelemt all : 1 using normal three, 2 using Executor
+
+-> I want to submit task and we want to use the output for further calls ..how will u do it? Ans : Future object
+
+*Running code , modular code
+
+-> What are the drawbacks of this Future object approach? How can u modify it ? Ans Async calls ,using Completable Future)
+
+* Working and wrote code but not runnable
+
+-> ORM tool -> MongoDB query to get the list of employees by first name , last name and age filter
+
+-> How will u implement joins in ORM ???
+
+->little bit about project
+
+Round 3 Design Round
+
+About project ,..your role and your feature archtiecture
+
+Design Distributed logger- LLD (needs to come with classes and java code to implement that classes ) ….no need to run..rough idea
+
+Round 4 Hiring Manager Round
+
+About project? Behavioural ques Why walmart Why 3 companies in 3 yr exp Why u did out of the box in your company Whys your goal Question regarding microservice -> about circuit breaker Use Case he is working in payment …suppose they have added one guideline of gov for payment ex top service…few of the clients opt for it but few of them didn’t opt yet..how will u make sure that there is no break in a. System, ?
+
+
+
+### Experience-2
+Round 1 (1hr)
+
+* Binary search on sorted array.
+* Kth largest element in an unsorted array.
+* General discussion.
+
+Round 2 (1hr)
+
+* Core java concepts - JVM, threads, multi-threading, internal working of hashmap, SOLID principles.
+* LLD - Design library management system.
+* System design concepts - Distributed Rate limiting, Caching, load balancers etc.
+
+Round 3 - HM (1hr)
+
+* Past experience and projects/contributions.
+* Situational/leadership/behavioural questions.
+* Culture fit questions and intro to walmart culture and work life.
+* General discussion.
+
+Round 4 - HR (30mins)
+
+* Intro + outside professional life.
+* Why walmart?
+* Current CTC discussion vs Expected CTC.
+
+
+
+Experience - 3 When i gave interview for LLD in walmart They asked me for this question. The Reservation system should contain the following features:
+
+The Railway Reservation System will provide the available Train-list between stations, and Seat-availability, via-details. After successful payment of the ticket fare the System will generate the ticket with seat allocation will be given to the passenger.
+
+The Reservation system should store all train details, fare details, PNR no.
+
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+
+
+I gave last Thursday. Structure was : 10-15 min (intro + they give 5-6 domains (testing , ood, servers side debugging etc ..you select 2 and few questions on it. I chose ood and testing they asked me difference between composition and inheritance , what is mock and when to use and when not to use, you have created a new data structure and you have documented all method signatures what other things will you include in documentation apart from method signature details. how to calculate shortest distance between 2 points and you are doing testing for some program/ feature in a server what are reasons which will slow down testing/ reasons due to which it will take more time to get the output (something like that ) and what is dependency injection? how to implement it and what are advantages of it.
+In remaining 45-50 min , they gave me one graph (2d matrix of + and 0) and + ---> obstacles and 0 ----> is path through which a snake can pass. snake enter from only edges of boards so return 2 arrays 1 having number of rows and another having number of columns through which snake can exit the board. (that means that particular row and or column every element will be 0 ). I solved this then they give another problem which is modification of same where they asked me to return given entry point return closest exit point . for this I told them the logic as there was no time left to completely implement it. In a day or two I received mail from Walmart that they have selected me for final interview. Note: you also have option to redo
+  Experience - 4
+
+1. Credit coins to a user's account, where every 10 Rs. spent equals 1 coin.
+2. Provide a dashboard for all registered users that shows the top 10 customers with the most coins, in descending order.
+3. Ensure the dashboard is updated on a near real-time basis.
+
+https://leetcode.com/problems/grumpy-bookstore-owner/description/
+https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+
+
+Experience- 5
+
+Round 1 (Technical) : 1.5 hrs
+
+1. Questions around current work experience
+2. Find the element which appears twice in an array. I discussed two approach. One based on map and another based on bit manipulation. Interviewer asked me to code the solution based on bit manipulation.
+3. https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/ Discussed Recursive approach using recursion stack. Interviewer asked me if we can do it in iterative approach using O(1) space. Discussed around it and finally was able to come up with the solution.
+4. Had some discussions around Low level design. I didn't have much idea about LLD round. Just approached by finding requirements and focused on writing re-usable code which are less dependent on each other. Interviewer was happy with the code.
+
+Round 2( HM ) : 1.5 hrs
+
+1. Started with introduction and normal discussions around current project.
+2. Ds question: Sort an array of 0s and 1s. Gave a two-pass approach. Interviewer asked to do it one-pass. Coded the one-pass solution.
+3. Max Stack Problem: Design a max stack that supports push, pop, top, peekMax and popMax. push(x) -- Push element x onto stack. pop() -- Remove the element on top of the stack and return it. top() -- Get the element on the top. peekMax() -- Retrieve the maximum element in the stack. popMax() -- Retrieve the maximum element in the stack, and remove it. If you find more than one maximum elements, only remove the top-most one. The complexity for each function should be O(1) as it is for stack functions. I gave an approach using 2 stacks. Interviewer asked me to give a solution having O(1) space complexity. I was not able to solve it for sometime. He gave me a hint to think which values we can store in a stack. I got an idea to create a custom class which will have two values, the value which we are pushing and the max value at that point so that when we will pop this element we can findout the previous max element in O(1) time and update the max value accordingly. Interviewer asked me to write a code for this and tried few testcases. He was satisfied with it.
+4. Some discussions around OOPS.
+5. Aksed 2 puzzles. I was able to answer both.
+6. Some normal managerial questions and discussion about the role of the position.
+
+
+Experience - 6  Questions : (LC Easy & Medium)
+
+* Climbing stairs (https://leetcode.com/problems/climbing-stairs/) LC Easy
+* Rotting Oranges (https://leetcode.com/problems/rotting-oranges/) LC Medium
+
+Since i had already seen the problems i could easily provide and explain the most optimal solutions for them in under an hour.
+
+2. 2nd round : (Core Java)
+
+It was a stress round in some sense, questions revolved mostly around Generics, Threadpools, Concurrency, Multiple inheritance with interfaces and default methods and Hashmap.
+
+3. Hiring manager round
+
+Given a LLD problem to design a Retail POS system to evaluate the balance to be provided back to the customer during the billing, had to take into consideration different currencies ( as in balance can be provided back in multiple type of currencies) and denominations for each kind of currency, design should follow SOLID principles and have good performance.
+
+
+Experience - 7
+
+Recruiter reached out to me for SDE III position. They were conducting a hiring drive and all rounds were going to take place on the same day. Round 1 : Data Structures and Algorithms round
+
+1. Brief introduction with some discussion on the current project.
+2. Questions related to Java
+3. Jump game question from leetcode
+4. Given an incoming stream of requests which contain the order_id, order_date, completion_date, process each request based on some condition. Priority for processing should be given in the order of order_date and completion_date. What data structure should be used here ? Also, I was asked to write the compare logic for this.
+5. Subset - II question from leetcode
+
+Round 2 : LLD
+
+1. Discussion on project.
+2. I was asked to write the entire code for a message delivery system. Had to explain all the classes and their interactions. Also, had to apply design patterns like strategy, factory etc, while implementing the code. The interviewer was expecting a working code for the above problem. Also, he wanted me to design the API for this which I did using Springboot.
+3. More questions and discussion on improvements with the above design regarding multithreading, exception-handling etc. The interviewer was quite thorough in this round.
+
+Round 3 : Hiring Manager round Mostly discussion around the current project's architecture. I was also asked to explain the flow for a REST API situation in Springboot.
+
+
+
+Experience - 8 (Important)
+
+Round 1: Data Structures & Algorithms (DSA) 1. Find an element in a reverse sorted array. -Solved using binary search. Follow-up: Handling duplicate elements – I proposed some approaches but couldn't implement an optimized solution on the spot. 2. Course Schedule I. -Solved using topological sort.
+
+Round 2: Core Java Singleton classes – Explained their real-life use cases and wrote the code. Keywords (final, static, transient) – I wasn’t familiar with transient at the time. How to make a class immutable? Error handling – Discussed checked and unchecked exceptions. Can you leave a catch block empty? Can this be used in a static method? I made a silly mistake while answering these. Deadlocks – Explained what they are and how to prevent them. Multithreading problem: Given an attribute that needs to be incremented by two threads until its value reaches 5000, I was asked to write the code. What is AtomicInteger? What is the String pool? Thread-related concepts: Thread join and thread pool questions. Difference between Hashtable and ConcurrentHashMap I was prepared for HashMap vs. Hashtable but didn’t know this difference. Tip: Watch Shreyansh Jain’s Java videos on YouTube. I watched them at 3.5x speed the day before the interview, which helped me answer many questions. The interviewer was very supportive throughout the round.
+
+Round 3: Hiring Manager (HM) Interview Resume-related questions. Discussion on my current project. Threading & heap dump-related questions. API optimization: How to optimize an API that makes multiple API calls, then checks the cache, and finally queries the database? Behavioral question: Why do you want to leave your current company? This round was scheduled for 1 hour but lasted 30 minutes. It didn’t go as well as I had prepared for different topics, but the hiring manager was very chill. Fortunately, I received positive feedback.
+
+Round 4: HR Interview Behavioural Questions. No Compensation talk.
+
+
+
+Experience- 9 
+ Round 1: DSA Round Duration - 1 hr
+
+2 Leetcode Medium level questions were asked. 1st questions was related to Graphs - was framed differently than a standard graph question. Question was of medium level, also lot of questions were asked regarding choice of data structure, why dfs or bfs and what would be optimal approach. I coded this in 15-20 mins, I was also asked to run the code and check for validity of test cases. 2nd Question was related to Backtracking - was similar to this one : https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/ . Was asked to run the code on basic test cases. At end some project/resume based questions and ended the interview.
+
+Round 2 : LLD + Project Based + JAVA (my techstack)
+
+Duration - 1 hr 20 mins This round was mostly based on questions around Java. He wanted indepth answers. Some questions were based on Multi-Threading and ThreadPools, also was asked about my current project architecture in brief. At the end he gave me a LLD question. Design File Structure System, where we have to design linux based file system of directories, files and folders. when we pass a command 'ls /path/', all files should be listed on the path.
+
+Round 3: HM Round
+
+Duration : 1 hr 15 mins This was the round with the Hiring Manager of the team which I am getting hired for. He asked questions about current project, tech stack, past work ex along with some behavioural questions. At the end was given 1 Medium** DSA question. Was asked the approch and code it.
+
+|2038. Remove Colored Pieces if Both Neighbors are the Same Color  
+Experience - 10  I was asked two medium leetcode problems.
+
+1. https://leetcode.com/problems/house-robber-ii/description/
+2. https://leetcode.com/problems/subarray-sum-equals-k/description/ The interviewer was fine with using Word Doc or IDE. I approached these problems by explaining the approach that I was going to follow and when the interviewer was satisfied with the approach I coded them and dry ran on a couple of test cases. Running the code was not necessary.
+
+Round 2: LLD HLD Round I was asked to design the feeds section of Instagram/ Facebook. The interview went as follows
+
+1. Gathered the exact requirements and aked a lot of qustions to narrow down the scope.
+    * Can the posts be only texts or dot hey have to be images only.
+    * What are information needs to be stored along with the post, to help with data modeling.
+    * Discussed about the concistency of the problem, took an assumption that it should be eventually conceistent.
+    * Do we want the users to reply to the comments.
+    * What are the ways in which we want the users to interact with the post, (Just likes, comments, replying to comments, should the replies be nested, is sharing or saving a post required)
+2. Then dicussed a little about the database design for the same. What kind of database of what kind of data. Listed out the attributes of the table.
+3. Next question was regarding scaling and after some discussion we landed on caching and discussed the various caching strategies and eviction policies.
+4. Then interviewer wanted me to write the caching logic for LFU strategy. I wrote the classes, interfaces and caching logic for the LFU. Thankfully I had recently studied about it and the following video explained it beautifully (https://www.youtube.com/watch?v=B7iCXl_KSoM)
+5. The LLD logic was written on a word doc, but it depends from interviewer to interviewer. They are ore interested in knowing waht design patterns can be used, are the solid principles followed when creating a structure of the classes.
+6. I would also recommend using a whiteboard to map out classes. In this cases I was aware what all I wanted to do, so did not spend too much of my time there.
+  ROUND 3 : Hiring Manager This round was heavily focused on the resume. I was asked questions on each and every line that I had mentioned and in depth questions about every tech that I had mentioned. This round went on for 1 hour 40 min or so.
+
+1. A good amount of time went into my project discussions. Explaining the problem starement and just expect a why for every answer you give.
+2. A lot of in depth questions about Microservices and monolithic architectures. What kind of systems are suited for both types.
+3. What are the ways in which a transition can be done from a monolith to microservice.
+4. Why do we even need to adopt the micoservice architecture.
+5. A lot of questions were about Kafka and the internals. Topics, partitions, consumers and consumer groups.
+6. Why do partitions exist.
+7. When using Kafka, what are the factors that affect the throughput. What role do the number of consumers and partions play in affceting the throughput.
+8. What happens when the paritions are more than consumers and vice versa.
+9. Next set of questions were focused on graphQL as I had used it to some extent in my provious projects.
+10. Why do we use graph QL? how and why are the advantageous, queries , mutations, resolvers etc.
+11. Then I was given a design problem to create a system that picks tasks from the database and schedules them to run at a specific time.
+12. Then he asked me to indetify all the bottlenecks in the system. How many ques would be needed, how many partitons, concurrent connections to the database, network issues. He wanted to test the debugging capabilities end to end.
+13. I had done performance testing in my previous prjects, so he wanted to know how that was done and what are the various kinds of testing that need to be done before the project goes live. This last round was pretty heavy and I was not able to answer all the questions, so I was not selected after the HM round, but really helped my prerp for next interviews. Hope it helps!!
+
+
+Experience - 11  Round 1 : DSA I was asked problems around 0, 1 matrix .
+
+1. https://leetcode.com/problems/number-of-islands/description/
+2. https://leetcode.com/discuss/interview-question/535473/Facebook-or-Phone-or-Largest-Perimeter-Island
+3. https://leetcode.com/problems/sort-colors/description/ I was asked to code on and IDE and ran the test cases that the interviewer wanted me to run.
+
+Round 2: LLD and HLD I was asked to design a connection pool system. This system should be able to provided a connection from connection pool and the pool could be of any kind. Thread pool, db connection pool and so on. I was fcosed on identifiying the api for the same and wanted to map out the classes on awhite board, but the inteviewer wanted to code it stratight away. Personally I feel more comfortable in mapping out classes, interfaces and realtionships on a white board, but I guess here it went against me as the interviewer wanted to just go back to the IDE. May be just creating blank classes on the IDE and then figurng out the reltionships might have helped. (My learning here was pay attetnion to what the interviewer wants) Then he gave me another question about writing a cache. I started out with this one but then the diection of the inteview went in direction of java and spring boot.
+
+Following are the questions that were asked.
+
+1. Java multithreading, Threadable, Runnable, Callable, Futue and CompletableFuture.
+2. Solid principles
+3. If there is a cyclic dependency between two classes, which annotaion can be used to handle that.
+4. Write the code for singleton pattern. Explain double locking. Why is volatile used?
+
+I was not selected after this round, probably because I did not code much when it came to LLD.
+
+Hope it helps!
+
+
+Experience - 12 (YOE-6)
+
+The recruiter reached out through Linkdin
+
+Round 1: DSA
+
+1. Detect cycle in Linklist and return position
+2. Number of island
+
+the HR confirmed next week that the interview was cleared wants to proceed with round 2 after two days
+
+Round 2: Java
+
+1. Min stack implimentation
+2. Hashmap maintaining order of insertion
+3. HLD for Twitter
+
+Cleared round 3 scheduled next week
+
+Round 3: Design
+
+1. Snake and ladder - design HLD and LLD with player range of 2-4, square range from 10-100 and dice from 6-18 defined entities for the same
+2. Design pattern used so far, factory
+3. singleton class
+4. syncronized method
+
+
+Experience - 13    Spring Boot: IoC, DI, Bean lifecycle, deployment
+* HTTP methods
+* Authentication: OAuth, JWT
+* Java: Serialization, Java 8+ features
+* 4 Small Coding: Java 8, SQL
+* Kafka basics
+* Database migration: Relational to NoSQL
+
+
+Experience - 14  Asked to code in JAVA only(though i have work experience in Java, I prefer cpp stl for coding) Asked to code in notepad... => find sum of elements in tree, by adding sum=leftsum+rightsum+currsum; => insert linkedlist2 at nth position linkedlist1 (Handle all edge cases)
+
+Round 2: lld Design your own library which can invoke rest calls to external systems
+
+functional requirement:
+
+1. provide clients to invoke post and get calls
+2. ability to select choice of implementation during the invocation-> Spring rest template/apache gttp client/ ok http client etc..
+
+non-functional requirement:
+
+1. design should adher to OOPs and Solid
+2. ease of adding new choice of implementation
+3. code should be unit testable
+
+questions faced on my design: which pattern you should use
+
+why factory? why not strategy, can composite pattern be used.
+
+when do we use factory and when strategy
+
+There is a interface which has 3 abstract methods. now already there is a production running code which has 2 concrete implementations implementing this interface. Now i have a new implementation which have to just implement 2 abstract methods in the interface, how to handle this
+
+Round 3: HM round
+
+where do you look yourselves in next 5 years what do you do when friend doesnt co-operate
+
+explain complete architecture of your feature in your work Unit test cases for it
+
+how do you scale from 100 to 1M request why sql for your feature
+
+how to ratelimit how to would you design error messages automatic alerts how would you check bugs
+
+how do you maintain code reviews
+
+
+Experience - 15
+
+
+
+
+
+ 
+
+
+
