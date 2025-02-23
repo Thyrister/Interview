@@ -629,13 +629,11 @@ InterView Experiences:
 Walmart
 
 
-### Experience - 1
+Experience - 1
 
 Round 1 : (Problem Solving)
 
 Ques1 : Tree
-
-6          /          7    10        /       / \        11     11    7
 
 Find avg sum at each level Expected complexity o(N)
 
