@@ -1,3 +1,8 @@
+# Amazon OA LeetCode ##### (Must Visit)
+https://leetcode.com/discuss/post/5399941/amazon-oa-questions-compiled-by-anonymou-bnxh/
+
+
+
 # AMAZON LeetCode Interview #
 
 3 months (03/2025)
@@ -2000,4 +2005,462 @@ Easy
 1856. Maximum Subarray Min-Product
 38.7%
 Med.
+
+
+# LeetCode Interview Experience #
+
+https://leetcode.com/discuss/post/6075975/amazon-sde2-50-posts-in-1-dsalplldhld-by-mzmg/
+https://leetcode.com/discuss/post/5328221/frequently-asked-low-level-design-lld-qu-l0xk/
+
+
+
+
+
+
+
+
+
+
+
+###### 2025 ##########
+
+Round1 - Low Level Design
+LP
+
+Tell me about a time when you went above and beyond to serve customer. Why? How?
+Tell me about a time when you took an unpopular stance and your team members or manager disagreed. What? how navigate?
+Design Tic Tac Toe
+Round 2 - Hiring Manager - System Design
+LP
+
+Tell me about a time when you had to learn new skillset beyond the scope of your day to day work
+Conflict Resolution with manager
+Design Instagram
+Round 3 - Coding
+LP
+
+Customer obsession
+Dive deep
+Medium question, didnt come across in leetcode but could be solved using priority queue in under 20 mins
+
+Round 4 - Coding
+LP
+
+Deliver under strict deadlines
+Tell me about a time when you had to make a decision between long-term value or short-term results.
+Design a lottery system where a customer can buy a lottery ticket ranging from 1 cent to 100 dollars. At the end of sale of all lottery ticket we will have a lucky draw where a winner will be chosen randomly and the chances of winning a customer should be according to the price they have paid for the ticket in other words the one who paid more should have more chances of winning.
+
+Interviewer had a certain solution in mind, struggled a lot to arrive at that, came up with something similar, not sure if this helped
+
+R1 - OA + behavior question and standard system design questions.
+
+R2 - 2 coding questions
+Q1 : finding maximum length subarray with first and last element having difference k.
+solved this within 20 mins from brute force to optimal solution.
+Q2 : finding maximum product L shaped path within a matrix.
+needed some hints but solved fully.
+no LP questions were asked.
+I think the interviewer seems satisfied with my answers.
+
+R3 - LLD
+design notification system with focus on building message content for different channels.
+2 LP questions.
+
+
+Questions are like -
+Describe a difficult interaction you had with a customer. How did you deal with it?
+What was the outcome? How would you handle it differently
+
+Current Exp : 2.7 years
+
+Recruiter reached out via linkedin
+
+Round1 : LP +DSA
+20 mins focussed on LP then two DSA questions
+
+Jump game 2
+Min Stack
+both on leetcode
+
+Round2: LP + LLD
+This round got extended to 1.5 hrs
+40 mins LP +40 mins LLD
+
+Low level design of google docs, focus was on db selection, design patterns and flow diagram
+
+Round3 LP+ HLD( Both 30 mins) -> Was asked HLD of traffic rules violation detection system
+
+Round4 [ Bar raiser] LP+ DSA -> 30 mins LP +20 mins DSA i completed question before time
+DSA question: https://leetcode.com/problems/minimum-falling-path-sum/description/
+
+Got call after 1 week that i am selected
+
+First Round
+Experience:
+I joined the interview on time, but the interviewer was 5 min late. For me, it was okay.
+The interview was structured as follows:
+30-35 minutes: Behavioral questions focused on Amazon’s Leadership Principles.
+20-25 minutes: DSA problem – Word Ladder (LeetCode Hard).
+Feedback & My Thoughts:
+I had solved the Word Ladder problem 11 times over the past 1.5 years as part of my preparation.
+The feedback mentioned that I provided an incorrect time complexity, but I double-checked later and found my analysis to be correct.
+Another concern raised was that I was in a hurry during the problem-solving.
+The interviewer expected production-level code within 25 minutes.
+Given the time constraint, I started with the optimal approach instead of brute force, explaining it in detail.
+If the interviewer thought I was rushing, they could have guided me accordingly, right?
+Second Round
+Experience:
+Again, I joined on time, but the interviewer was late. For me, it was okay.
+The interview was structured as follows:
+30-35 minutes: Behavioral questions.
+25-30 minutes: Low-Level Design (LLD) – Design Chess.
+Feedback & My Thoughts:
+Given 25-30 minutes, I structured my approach as follows:
+Requirements gathering.
+Defining class names.
+Creating the UML diagram.
+My UML covered key design principles:
+Strategy Pattern for rules.
+Factory Pattern for chess pieces.
+The feedback mentioned that I over-designed the problem and lacked experience.
+
+
+
+Round 1: Data Structures & Algorithms (DSA)
+
+Questions:
+
+Medium Linked List problem – Successfully coded the solution
+Kahn’s Algorithm type problem – Explained the approach but couldn't fully implement due to time constraints
+2 Leadership principles
+Round 2: High-Level Design (HLD)
+
+Question: Design Twitter, 2 Leadership principles
+
+Performance:
+
+Discussed system components, database design, and scaling strategies
+Interviewer seemed satisfied with the discussion
+
+Round 1: DFS-based question and 2 LPs.
+Round 2: System Design (Notification Service) and 2 LPs.
+Round 3: Word Search (Both) and 2 LPs.
+
+Total time: 60 minutes.
+First 30 minutes were standard behavioral questions based on Amazon LPs.
+Next, I was asked to create an interface to implement package installations in operating systems. I was told, the actual installation API has been already written called installPackage() in the same class. I just needed to design the class which will have this public API along with other necessary APIs and/or variables. Basically, an OOD question with a hint of LLD.
+
+Round1 : LLD , Design StackOverflow
+Requirements:
+
+A valid user should be able to post a question
+A valid user should be able to answer to a question
+upvote/downvote to a question and answer
+add comment to a answer
+search for a question
+Round2 : DSA
+
+Find Unique Triplets with sum 0, the input array have unique integers.
+
+There are n players, every player have played with every other player. find any valid sequence of arrangement of these players as per below conditions
+
+whoWon(playerA, playerB) returns player who won the game
+the immediate left of a player should have lost to the player
+the immediate right of a player should have won aganist the player
+LP:
+
+Any repetative task that you have done ?
+Unpopular opinion in your team discussions?
+Any time when you have crossed deadline?
+Complex situations you have faced.
+had to learn new things ?
+
+### USA Experience ###############
+2 LP
+Design a system for Hotel Reservation
+
+Round 2:
+2 LP
+Design customer reviews for products in Amazon (LLD)
+
+Round 3:
+2 LP
+https://leetcode.com/discuss/interview-question/1031933/amazon-onsite-sde2-package-dependencies
+
+Round 4:
+2 LP
+https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/editorial/
+
+Final Thoughts
+I felt confident on 2 and 3 rounds. For 1st round I couldn't dive deep because of time constraints. For the final round, interviewer seemed to be disconnected, there was no proper feedback/response from the interviewer, I gave the correct solution for the coding problem but mumbled a bit during the LPs, and from then the interviewer seemed disinterested.
+Not sure about my chances.
+
+Round 1: Introduction + Leadership Principles (LP) + a custom tree problem similar to the Lowest Common Ancestor (LCA), for finding a value comon to both nodes (with no root given)
+Round 2: Introduction +LP + System Design (e.g., designing Instagram reels, TikTok).
+Round 3: Introduction +LP + String manipulation, focused on processing strings and producing various outputs using mathematical logic.
+Similar to https://leetcode.com/problems/integer-to-english-words/
+Round 4: Introduction +LP + a priority queue problem involving value updates and finding the top n values.
+Similar to https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/
+For all rounds, the introduction and Leadership Principles (LP) discussion took 30 minutes. The interviewer typically asked one LP question, but if time allowed and the responses were strong, they would ask a second question until the 30-minute mark.
+
+Overall, it was a positive experience. Although I struggled to complete the coding tasks within the time limit, my approach and intuition were correct. [Response in 3days]
+
+All the questions they asked were not straightforward LeetCode problems. Instead, they were combinations of different LeetCode questions, making them tricky. It was easy to fall into the trap of thinking I knew the solution due to prior practice with similar problems, but these required recognizing they were blends of two distinct questions. As a result, the typical solutions wouldn’t work directly.
+
+All the LP's answers needs to be unique, be prepare with multiple scenarios
+
+Hope this helps in any way - best of luck!
+
+
+##################
+
+
+3 Sum
+Robot in Circle
+Number Game
+Find All Combination of Numbers that Sum to a Target
+Fill The Truck
+Slowest Key
+Five Star Sellers
+Number of Ways to Split Into Primes
+Storage Optimization
+Music Pair
+Minimum Difficulty of a Job Schedule
+Autoscale Policy, Utilization Check
+Optimal Utilization
+Merge Two Sorted Lists
+Two Sum - Unique Pairs
+Shopping Patterns
+Reorder Data in Log Files
+Top K Frequently Mentioned Keywords
+
+
+OA : 1 Medium 1 Medium-hard ( don't remember questions )
+
+Onsites ( 4 )
+Round 1 : ( Lean hire )
+2 DSA problems ( Binary search & standard DP on string )
+LP Discussion
+
+Round 2 : ( Strong Hire )
+LLD : Design splitwise app
+Lot of discussion on DB schema and API design along with discussion on storage option for metrics calculation (spends per day/year/month/user/group/trip )
+
+Round 3 : HM round ( Strong Hire )
+HLD :
+Design ixigo kind of app
+Discussion on dynamic pricing of tickets
+LP : Lot of discussion on customer obsession
+
+Round 4 : Bar Raiser ( Strong hire )
+1 DSA ( Standard graph problem, proper running code was expected )
+LP : Discussion citing current projects
+1 . A project where to you chased a tight deadline ( all LP questions were in similar pattern )
+
+OA : 1 Medium 1 Medium-hard ( don't remember questions )
+
+Onsites ( 4 )
+Round 1 : ( Lean hire )
+2 DSA problems ( Binary search & standard DP on string )
+LP Discussion
+
+Round 2 : ( Strong Hire )
+LLD : Design splitwise app
+Lot of discussion on DB schema and API design along with discussion on storage option for metrics calculation (spends per day/year/month/user/group/trip )
+
+Round 3 : HM round ( Strong Hire )
+HLD :
+Design ixigo kind of app
+Discussion on dynamic pricing of tickets
+LP : Lot of discussion on customer obsession
+
+Round 4 : Bar Raiser ( Strong hire )
+1 DSA ( Standard graph problem, proper running code was expected )
+LP : Discussion citing current projects
+1 . A project where to you chased a tight deadline ( all LP questions were in similar pattern )
+
+Question 1: https://leetcode.com/problems/kth-largest-element-in-an-array/description/ where the input stream never ends
+
+Question 2: https://leetcode.com/problems/climbing-stairs/description/
+
+Question 3: https://leetcode.com/problems/all-paths-from-source-to-target/description/
+
+System Design: Design google doc where you can create doc and share link to others for review. Follow up: how did you make it scalable to handle hot hits?
+
+Round 1: Data Structures & Algorithms (DSA) Round
+Questions:
+A problem similar to Find Peak Element (Binary Search).
+Find Median from Data Stream (Heap-based approach).
+Solved both on paper and answered follow-ups on Heap Data Structure.
+Feedback: Positive ✅
+
+Round 2: Hiring Manager Discussion + LRU & LFU Design
+Discussion: Previous work experience in detail (20-30 mins).
+Coding Task:
+Designed and implemented LRU Cache on paper.
+Discussed LFU Cache due to time constraints.
+Feedback: Positive ✅
+
+Round 3: High-Level Design (HLD) + Low-Level Design (LLD)
+Problem: Designing the Contact Support feature for an e-commerce website.
+Outcome:
+Performed well in HLD discussion.
+LLD discussion took most of the time, so I couldn’t complete the class and interface design.
+Feedback: Negative ❌
+
+Round 4: Bar Raiser + LLD
+Leadership Principles (LP): Answered 7-8 behavioral questions.
+System Design Task: Rate Limiter (Took around 40 minuts)
+Implemented two algorithms in the remaining 10-15 minutes.
+Interviewer seemed positive, but feedback turned out negative.
+Feedback: Negative ❌
+
+Round 1: Given list of logs with each log containing userId and WebpageId. Give the 3-page sequence that is visited maximum times by the user. This 3-page sequence is aggregated on userId.
+
+Round 2:
+
+Given a binary tree and a node where a fire is started. Fire spreads to adjacent nodes in 1 unit of time. FInd time for tree to burn completely.
+Frog Jump
+Round 3: HM round with LLD. Design Parking system. Focus was on classes, fields, methods.
+
+Round 4: Bar raiser HLD. Design Notification Service.
+
+
+Online Assessment:
+Section 1: (90 mins)
+
+Simple medium question based on sets.
+Medium question. Solvable only using Trie. You can solve some common Trie problems. solved both questions in 40mins.
+Section 2 & 3: Based on behavioural and situation-based questions.
+Received a call from HR after 1 week. Round 1 & 2 got scheduled after 3 weeks.
+One month gap between OA and Round 1.
+
+Round 1: Technical (LLD)
+Interviewer: Sr. SDE (very supportive and encouraging)
+Started with two amazon LP questions. I followed STAR based approach. But interviewer not satisfied with my answers. You must remember the task in depth. They will dig deep into it. (20 mins)
+Design Email domain server (LLD). Firstly, I didn’t understand the question properly. Interviewer explained it one more time. I never seen this question before. I was not able to think about the solution. Interviewer gave lot of hints he also suggested some APIs which are needed. Because of lack of preparation, I couldn’t solve it fully. Solved it partially. He also breakdown the problem into two parts. First part, to do domain name registration and second part email creation, sending email between same domain users and different domain users and handling privacy.(35 mins)
+Expectation from Interviewer: I need to come up with high level design with DB selections and other components details. later deep dive into APIs and schemas and indexing and scalability.
+Example: user must be able to register their domain. Example leetcode.com.
+owner can create emails like xyz@leetcode.com
+sending mail between same domain and different domains like leetcode.com & codeforce.com
+Learnings:
+
+Don’t just watch videos on youtube. try to solve it on your own. Also use timer while practicing. You need to solve it in 35 mins.
+Solve using online platforms like draw.io. practice it more because this makes you faster in the interview and comfortable with the online platform.
+Always discuss with interviewer before selecting something. Example Sql or NoSql. Remember interviewer is there to help you. Explain what you are thinking. He will correct you if you are wrong.
+Round 2: Technical (DSA)
+Interviewer: Sr. SDE
+Started with one Tree based question (35 mins) and two amazon LP questions (20 mins).
+Given two nodes of a binary tree. Find the distance between two nodes in a tree with unique values.
+Tree with pointers from child to parent.
+
+
+
+Coding 1: https://leetcode.com/problems/word-break-ii/description/ variant
+Coding 2: Given a grid whose cells are 'O' and 'X', latter being a blokcer. Given source and destination, find if there is a path exists between source and destination. You can only travel straight or take a right turn.
+LLD: https://leetcode.com/discuss/interview-question/1797428/Amazon-or-Round-3(Onsite)-or-Billing-System-LLD variant
+
+i had amazon phone intrview and this my questions similar to leetcode Number of Connected Components in an Undirected Graph
+int[][] edges = {{0, 1}, {0, 2}, {1, 2}, {1, 3}, {3, 4},{5,6},{6,7},{8,5},{10,null}};
+out put n1={0,1,2,3,4} , n2 {5,6,7,8}, n3 {10}
+
+
+Round 2 - DSA
+
+Problem Solving and LP principles:
+Interview started with introductions. Then we moved to LP principle based questions. There was one question around delivering results. I gave a very detailed answer using STAR pattern and also shared metrics. I answered follow up questions around challenges faced. I have been working at a startup and led some good projects so this was comparatively easy for me.
+
+Then we moved to a coding problem on Livecode platform. It was a standard medium level problem. I implemeted the solution within 15-20 minutes. There was a follow-up question for which I gave 2 solutions. Implemented one of the solutions that prioritised read API performance over write as reads are more frequent.
+
+I have been practicing DSA on and off but consider myself mid-level in solving them. The interviewer was very experienced (12+ YOE) and enjoyed collaboration.
+The interviewer was nodding head and seemed to agree to my answers.
+
+Overall, this round went really good.
+
+Round 3 - LLD
+
+The interview started with introductions. There was one question on leadership principles - disagree and commit. I answered this question using STAR pattern. There was one follow up question. Answered that as well. It felt like interviewer didn't like my answer or was distracted.
+
+Then we moved to the LLD problem. The requirement was pretty simple and aligned with one of my major project. I feel like the interviewer made up this problem looking at my resume. I thought I had it.
+
+I listed down requirements and told him about various cases around this. I mentioned that I will use webhooks and asynchronous processing but he didn't agree to it. He pushed back. I explained that API latency can be high for the task we are going to perform and thats why we should not keep the client waiting. However, he pushed back harder. I had to remove that from requirements.
+
+I listed one more requirement and tried to clarify whether this requirement makes sense. He said this is my system and its upto me to decide. I felt like this was not very collaborative.
+
+Still I asked him if he wants me to cover anything else or these requirements makes sense for the problem.
+
+Now, he asked me to explain the user workflow along with DB I will be using. I wasn't prepared for this as its a LLD round and I thought we were supposed to draw UML (class design). However, I drew a simple HLD diagram on draw.io. Then we moved to API design. There were constant interruptions from the interviewer so I could not focus and missed very simple things by now.
+
+Then he asked me to write some code. I did. But again there were constant interruptions on each and every line. I tried to be calm and said things like "I agree', "You are right", etc. I used concept like single responsibility and dependency injection while coding to promote extensibility and keep classes losely coupled but he didn't consider those as plus points.
+
+There is no right or wrong answer to a vague LLD problem and it depends on user needs.
+
+Overall, this round didn't go well. I was able to defend some of the points though.
+
+I might be having hiring manager (HLD) round next but not too sure. Hiring manager and bar raiser rounds hold more importance and it will be decided after receiving a detailed feedback for the LLD round.
+
+I believe there is a need for a proper format for LLD rounds. Any thoughts on how I should have approached this round?
+
+Can someone help with preparation guide for HLD round as well?
+
+I was asked one LP question
+DSA question: https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/
+
+Then after 2 weeks, I mailed the recruiter and I got to know that I had passed phone screen and they would schedule the next rounds.
+
+Round 1
+
+I was not asked any LP questions this round, the interviewer directly jumped into DSA problem.
+It was a DP question which asked to find max subarray sum such that the start and end element of the subarray are equal.
+I gave a brute-force solution at first which I thought would be enough, but he wanted me to optimize it further. I tried to optimize my brute-force solution itself, but I should have just abandoned that approach and started with DP approach right away. I wasted a lot of time trying to fix my first approach and pivoted to the DP approach very late. I was able to give the logic for DP solution but not able to code it because time was up.
+
+Round 2
+
+The interviewer started with 2 LP questions
+After that he told me he would be asking 2 DSA questions.
+The first one was based on trees, I don't remember exact question but I was able to explain solution and code it up and the interviewer seems satisfied.
+Then he moved on to the next question which was kind of a tricky one with arrays.
+We are given an array with positive numbers. We can combine any two numbers and their sum is added to our score and the sum is added to the array and the original numbers are removed, we need to combine all numbers in the array such that our score is the minimum at the end when we are left with only one number.
+I was not really able to come up with solution for this one, as some edge cases were failing. Just before the end of the interview, the interviewer told me the order in which I should add up the numbers for one failing test case and from there I was able to come up with the solution.
+
+Round 3
+
+This was an HLD round and I was asked to design a proximity service. I think this round went well.
+This round also no LP questions were asked.
+
+Round 4
+I was asked an LP question
+This was an LLD round and I was asked to design a board game. I think this round also went well.
+
+📝 Round 1: Screening (Eliminatory)
+DSA Question: Given a 2D array [n*2] with [timestamp, value], aggregate values per minute. Leetcode medium level
+
+Approach: Used HashMap (discussed alternative approaches like TreeMap, sparse arrays, and tradeoffs).
+LP: 3 questions.
+
+🧠 Round 2: 2 LP + DSA
+DSA Question: Reorganize String
+Solution: Used Priority Queue (Heap) for O(26log 26*n ) ≈ O(n) time complexity. Knew the linear solution but didn’t discuss it, as i was not sure if that's correct.
+LP: 2 Leadership Principle questions.
+
+🛠 Round 3: 2 LP + High-Level Design
+System Design: Design Tiny URL
+Discussion: Scaling, caching, DB design, URL encoding strategies.
+LP: 2 questions. this round went well.
+
+📌 Round 4: 8-12 LPs (Full LP Round)
+
+Product Manager from a different team took this round.
+All my prepared LP examples got exhausted, so had to dig into my past work for more stories for the next rounds.
+
+💻 Round 5: 2 LP + Low-Level Design + 1 more LP
+
+LLD Question: E-commerce API to fetch products for a category & its subcategories.
+Hiccup: Took too long to catch the hint for using Strategy Pattern for filtering.
+LP: 3 questions. This round didn't go that well, reason of rejection is this round
+
+🗣 Round 6: Deep Dive LP (3 LPs)
+In-depth follow-ups on every story.
+Heavy focus on problem-solving in ambiguity.
+
 
