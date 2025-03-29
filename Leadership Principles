@@ -1,0 +1,56 @@
+#### Tell me about a time when you didn't meet customer/deadline/manager expectations. What happened, and how did you deal with the situation? #####
+
+Situation:
+While working on delivering rolling upgrades for our object storage system, we designed a patent-worthy approach to achieve zero downtime. The architecture included upgrading multiple components—database schema, binary files, versioned APIs, and the dstore pods (Kubernetes pods managing node data).
+
+A key challenge was upgrading dstores without disrupting data availability. Our system used diskgroups, each consisting of six dstores implementing erasure coding. To maintain availability, at least four dstores per diskgroup needed to remain operational at all times.
+
+Task:
+I was responsible for implementing the upgrade strategy. The plan was to upgrade two dstores at a time per diskgroup, ensuring at least four remained active. Once the first two successfully upgraded, the next two would follow, and so on. This sequential approach was designed to prevent data unavailability.
+
+Action:
+After completing the implementation, I ran extensive upgrade tests across different environments. However, during testing, I observed an unexpected issue:
+
+In some cases, the first two dstores did not restart successfully post-upgrade.
+
+Despite this failure, the next batch of two dstores was triggered for upgrade, further reducing available dstores.
+
+This occasionally brought the total active dstores below four, violating the redundancy requirement and potentially causing data unavailability.
+
+I debugged the failure scenarios and identified that the dstore restart behavior was inconsistent across different workloads. Some pods failed to come up due to prolonged initialization times, causing a cascading effect on subsequent upgrade batches.
+
+Recognizing that fully resolving the issue would take additional time, we prioritized minimizing customer impact by:
+
+Providing direct engineering assistance to customers during upgrades. Our team set up a dedicated support channel where engineers, including myself, worked closely with customers to guide them through the upgrade process and mitigate risks in real-time.
+
+Offering a temporary manual upgrade plan, allowing customers to upgrade disk groups in a controlled manner to avoid downtime for critical workloads.
+
+Communicating proactively with customers, explaining the situation, our immediate workarounds, and our ongoing improvements, which helped maintain trust.
+
+Result:
+At that point, I was unable to fully resolve the issue, but I identified key areas for improvement:
+
+Implementing a health-check mechanism to verify successful dstore pod restarts before triggering the next batch.
+
+Adding rollback logic to restore the last stable state if a dstore pod fails to start within a predefined timeframe.
+
+Introducing a prioritization mechanism to upgrade lower-traffic nodes first and adjust batch sizes dynamically based on real-time health metrics.
+
+Since I was unable to complete the fix at that time, I escalated the issue to the team, documented my findings, and collaborated with others to refine the upgrade strategy further. This experience reinforced the importance of real-world testing beyond theoretical design and proactively ensuring customer satisfaction, even in the face of delays.
+
+
+
+
+
+
+
+
+#### 
+
+
+
+
+
+
+
+
