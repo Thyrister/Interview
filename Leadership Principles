@@ -45,9 +45,55 @@ Since I was unable to complete the fix at that time, I escalated the issue to th
 
 
 
-#### 
+#### Tell me about a time when you showed an initiative to work on a challenging project. ####
+
+Situation:
+During my first year at Robin.io, I was working on the Multi-Data Center Automation Platform (MDCAP) project, which focused on automating deployments across multiple data centers. While this was a critical project, I was eager to take on a more technically challenging role that would provide deeper exposure to storage internals and distributed systems.
+
+Task:
+An internal customer had a requirement to build an AWS S3-compatible object storage system from scratch. This was a highly ambitious project that involved designing and implementing replication, data management, encryption, scalability, and system resilience features. Given the complexity and the opportunity to work on end-to-end software development, I saw this as a chance to expand my expertise and proactively expressed my interest in joining the team.
+
+Action:
+To transition into this new project, I:
+
+Took the initiative to learn about object storage architectures, replication mechanisms, and encryption techniques to prepare for the challenges ahead.
+
+Collaborated with key stakeholders to understand their requirements and ensure that the architecture aligned with business needs.
+
+Worked on critical features like rolling upgrades, bucket and object lifecycle management, and server-side encryption to enhance security and system performance.
+
+Developed scalable solutions that could handle high-volume data operations efficiently.
+
+Result:
+By stepping up to this challenge, I was able to gain deep technical expertise in object storage while directly contributing to the successful development of the product. My work on this project strengthened my understanding of distributed systems, large-scale storage solutions, and Kubernetes-based deployments, helping me grow as a software engineer.
 
 
+#####  Tell me about a time when you took on a task that was beyond your job responsibilities.  #####
+
+Situation:
+At IBM, a user requirement emerged to auto-populate multiple SSL certificate fields based on specific use cases, such as web browsers, key servers, and other applications. The goal was to recommend pre-defined configurations for each use case while allowing users to modify them before creating the certificate. If any fields were incorrectly edited, the system would return an error.
+
+Task:
+While my primary responsibility was to implement the business logic for auto-population, I identified a potential pain point in the user experience—users had to submit the certificate request to validate their edits, and errors were only detected post-submission. This meant users had to go through a trial-and-error process, leading to unnecessary delays and frustration.
+
+Action:
+I took ownership beyond my defined scope and proposed an enhancement:
+
+Introducing a "Verify" feature that allowed users to validate their changes before submission.
+
+This would enable users to correct any mistakes in real-time rather than waiting for an error message after submitting the request.
+
+I designed and implemented the feature, ensuring it seamlessly integrated with the existing auto-population logic.
+
+Since this was outside my immediate tasks, I dedicated extra hours to refine and test the solution, ensuring a smooth user experience.
+
+Result:
+The feature was successfully rolled out, significantly enhancing user experience by reducing errors and improving efficiency. Users could now validate and adjust their configurations upfront, leading to a smoother workflow. The positive feedback reinforced the value of going beyond assigned responsibilities to drive customer-centric improvements.
+
+
+
+
+##### 
 
 
 
