@@ -93,8 +93,163 @@ The feature was successfully rolled out, significantly enhancing user experience
 
 
 
-##### 
+##### Tell me about a time when you had to learn a completely new skillset to accomplish current deliverables #####
+#####  Tell me about a time when you faced a roadblock. How did you approach it? Was it solved or not? What did you learn? #####
 
+Situation
+In MDCAP, we used an Artifactory pod to store configuration data required for bare-metal provisioning. This included PXE boot tarballs—minimal OS images that contained the kernel, initramfs, and bootloader files necessary to initiate a network-based OS installation on a machine with no pre-installed OS.
+
+However, the system allowed users to register the same PXE boot tarball multiple times under different names, leading to duplicate storage of large files (sometimes hundreds of MBs or more per profile). This inefficient storage usage caused unnecessary bloat in the Artifactory pod.
+
+Task
+To optimize storage, I needed to:
+
+Analyze how PXE boot tarballs were being stored and referenced in the system.
+
+Modify the Rust-based service handling configuration storage to detect and eliminate redundant files.
+
+Ensure that the deduplication logic didn’t break existing provisioning workflows.
+
+Action
+I analyzed the existing Rust codebase and identified that each PXE tarball was being stored as a separate artifact, even when its content was identical to an existing file.
+
+I refactored the Rust service to compute a hash (e.g., SHA-256) of the tarball upon upload.
+
+Instead of storing duplicate copies, the system would reference an existing file if the hash matched an already stored tarball.
+
+Implemented unit and integration tests to ensure the deduplication logic worked correctly without impacting provisioning.
+
+Result
+✅ Significantly reduced redundant storage consumption, as multiple profiles referencing the same OS version no longer caused duplicate PXE boot tarballs.
+✅ Improved efficiency of the Artifactory pod, preventing unnecessary disk usage and reducing provisioning delays.
+✅ Optimized overall bare-metal provisioning workflow, ensuring a more scalable infrastructure.
+
+
+#### Describe a situation where you prioritized customer feedback over other priorities and the result. ####
+
+Situation
+In MDCAP, we had a feature that allowed users to register and execute network functions on hardware like VMs and bare-metal servers. These functions were executed in batches, managed by worker pods, where a batch represented a user-triggered execution of a function on a specific hardware setup.
+
+Initially, our system enforced unique function names, meaning users could not register functions with the same name, even if the function’s logic differed based on OS environments or hardware types.
+
+However, after launching the feature, customer feedback highlighted a critical usability issue—they needed to register functions with the same name but with different underlying scripts for different OSes. For example, they wanted to register a function called "ConfigureNetwork" with separate implementations for Ubuntu, RHEL, and Windows.
+
+Task
+We needed to:
+
+Enable function name reuse without breaking existing functionality.
+
+Ensure minimal changes to the existing system design while maintaining backward compatibility.
+
+Optimize for scalability, considering that function execution was managed in worker pods.
+
+Action
+We conducted brainstorming sessions and design discussions to evaluate different approaches.
+
+We introduced versioning for registered functions—users could now register the same function name but with a version identifier, distinguishing different implementations.
+
+The system was modified to store multiple function versions under the same name while keeping track of which version should be executed for a given hardware/OS combination.
+
+We ensured that function execution logic in worker pods was updated to fetch the correct version based on user input.
+
+The changes were implemented with minimal refactoring, leveraging the existing data model and execution flow.
+
+Result
+✅ Improved user experience—users could now register the same function name for different OS environments without workarounds.
+✅ Increased adoption of the feature, as customers no longer faced naming restrictions.
+✅ Backward compatibility maintained, ensuring no disruptions to existing registered functions.
+✅ Efficient execution in worker pods, as function versions were dynamically selected based on the execution environment.
+
+
+
+
+#### Tell me about a situation where you had to do an in-depth analysis to find a solution. How did you approach it? What was the impact? ####
+#### Q1: Give an example of a time when you had to do more with less. #####
+#### Additional: Describe a situation where you found a cost-effective solution without compromising on quality #####
+
+
+Situation
+In MDCAP, we needed an efficient way to scale our main engine pod dynamically based on system load. Our initial approach was to implement Kubernetes Horizontal Pod Autoscaler (HPA), which scales pods based on CPU and memory utilization. However, for HPA to function, we required a metrics collection system such as Kubernetes Metrics Server or Prometheus, both of which are resource-intensive and would add unnecessary overhead to our Kubernetes cluster.
+
+Task
+Our goal was to:
+
+Implement dynamic scaling of engine pods based on real-time load.
+
+Avoid deploying heavy monitoring solutions that could impact Kubernetes resource utilization.
+
+Ensure scalability and efficiency without compromising system performance.
+
+Action
+Instead of relying on external monitoring tools, I proposed an innovative in-cluster solution.
+
+I modified the engine pod to spawn a lightweight background thread responsible for periodically collecting CPU and memory usage of all engine pods using the Kubernetes API (/metrics/resource/v1beta1/nodes/pods).
+
+The collected metrics were aggregated over a configurable time window to compute the average system load.
+
+Based on this average, I implemented a custom auto-scaler logic within the engine pod, which:
+
+Scaled up pods when utilization exceeded a predefined threshold.
+
+Scaled down pods when usage dropped below a certain level.
+
+I leveraged the Kubernetes API to dynamically create or terminate pods without requiring HPA.
+
+Result & Impact
+✅ Eliminated the need for Kubernetes Metrics Server or Prometheus, reducing resource consumption.
+✅ Achieved efficient and lightweight auto-scaling, improving system responsiveness.
+✅ Reduced infrastructure overhead, as the solution was embedded within the existing engine pod.
+✅ Enhanced scalability, ensuring the system could handle varying workloads dynamically.
+
+
+
+#####  Tell me about a time when you took an unpopular stance, and your team members or manager disagreed. How did you navigate the situation? ######
+##### Share an experience when you had to defend your ideas despite significant opposition #####
+##### Additional: Tell me about a time when you had to make a decision that was best for the team but initially met with resistance ######
+##### Q1: Describe a time when you proposed an ambitious idea. What was it, and how did you get buy-in? #####
+#### Tell me about a project where you had to look at the bigger picture and influence others to align with your vision. #####
+#### Tell me about a time when you saw a project that was not meeting your standards. How did you address it? #####
+##### Describe a situation where you helped raise the quality bar on a project or task. ######
+
+Situation
+In our object storage project, we had a microservices architecture where different services communicated using RPC (Remote Procedure Calls). Since RPC calls serialize parameters in a fixed order, the deserialization process depended on maintaining that exact order.
+
+The problem was that our current design did not account for future upgrades. If we needed to add extra parameters in the future, the existing implementation would break due to incorrect deserialization.
+
+I identified this as a critical scalability issue early on and proposed a versioning mechanism for RPC calls.
+
+Task
+I needed to:
+
+Ensure backward compatibility so future RPC modifications wouldn’t break existing functionality.
+
+Convince the team to refactor the existing code, even though it required additional effort and extensive testing.
+
+Implement a scalable solution that would allow us to extend RPC calls without disrupting service communication.
+
+Action
+I proposed embedding an API version identifier as the first serialized parameter, allowing deserialization logic to handle different versions accordingly.
+
+Since this required refactoring existing RPC calls, I worked with a senior developer to evaluate the impact and define a migration plan.
+
+To gain buy-in from the team, I:
+
+Demonstrated potential failure cases where future RPC modifications would break deserialization.
+
+Outlined the long-term benefits of implementing versioning now, preventing future breaking changes.
+
+Assisted in writing test cases to validate that our solution maintained backward compatibility.
+
+Result
+✅ My proposal was accepted, and we refactored the RPC serialization to include versioning.
+✅ The solution ensured future compatibility, making it easier to introduce new features without breaking existing services.
+✅ Our system became more scalable and resilient, preventing potential failures that could have occurred during future upgrades.
+
+
+
+
+#####  Tell me about a time when you made a tough decision with limited data ######
+#### Share a time when you made a decision that turned out to be incorrect. What did you learn from it? #####
 
 
 
