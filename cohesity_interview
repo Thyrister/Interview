@@ -1,0 +1,245 @@
+COHESITY MATERIAL
+
+https://leetcode.com/discuss/post/5528864/cohesity-india-mts-3-reject-by-anonymous-m8c6/
+
+https://leetcode.com/discuss/post/5216297/interview-experience-cohesity-angelone-r-nz2f/
+
+https://leetcode.com/discuss/post/3515681/cohesity-interview-by-anonymous_user-x8dk/
+
+https://leetcode.com/discuss/post/3335639/cohesity-ic5-india-2023-reject-by-anonym-hjub/
+
+https://leetcode.com/discuss/post/2748605/cohesity-software-engineer-backend-banga-0a0r/
+
+https://leetcode.com/discuss/post/1529038/cohesity-interview-experience-reject-35-4388f/
+
+https://leetcode.com/discuss/post/1125535/microsoft-reject-ghosted-flipkart-ghoste-jnog/
+
+https://leetcode.com/discuss/post/1133337/cohesity-pune-35-yoe-reject-by-anonymous-pp8m/
+
+https://leetcode.com/discuss/post/130827/cohesity-software-developer-by-aragorn30-yp7f/
+
+
+##########################
+
+1. A large file of 1TB where every 4 bytes is a number, unsorted.
+2. 10 TB of free HDD space. Use it however you like.
+3. 100 MB of RAM. Very unrealistic if you know your comp arch, but let's humor him.
+
+Find the missing ranges.
+Example : 2,5,4,3,16,13,11,9,20 Answer: [0,1],[6,8],[10],[12],[14,15],[17,19]
+I suggested brute force approch, straw man and tin man arguments.
+1. Brute force : External Merge sort, compress the duplicates, iterate to get the missing range. He told me given file is immutable.
+2. Straw man : Bucket the numbers as duplicates don't count, store it in a file in 10 TB free space, iterate through the files.
+3. Tin man : Bucket the numbers as before but instead of storing values, use interval tuples instead, iterate through the files.
+Finally, he asked me if there is any other data structure I could use. I thought of everything : stack, queue, linkedlist, array, Tree, BST, Trie, HashMap, Set, PQ and found that none of them fit the requirement. Bucketing with interval merge was my best shot.
+Remember how I told you that Cohesity is very particular about OS fundamentals? Yep, the director told me that I could use Bitmap. My dumb brain didn't make the connection. He gave me couple of mins to think about it but nope. I missed it, mostly because it's about to end in 10 mins and I have to join scrum call. I threw in the towel.
+He explained that we could assign each number to a bit in a bitmap and basically it's bucketing the values (0 not present, 1 is present). Now the question becomes, find the range of zeros in the bit-array. Funny thing about that, it's the LC easy question once you put it that way. The solution is O(log N).
+
+
+Round 2 was also coding and some low level design round. Q1 - Given a huge file which cannot be loaded in memory. Sort the values in file. This is typical external merge sort. Few follow ups were asked on how to select the size of buffer chunks which we will pick for sorting. Will they change in case of HDD/SSD as they different read/write speed. Q2 - Design a library of mutex for read and write lock. Need to design class and function for implementing the lock feature.
+Round 3 was low level design and OS concepts Q1 Design class diagram for Golang channels. Need to come up with struct design for channel communication. Q2 Similarity between VM and container Q3 How process isloation works in VM and container. Q4 Stack and heap memory for process question.
+
+
+
+#########################
+
+
+segregation of positive and negative integers in an array with O(1) space complexity, followed by a requirement to maintain the original order.
+
+longest substring with K distinct characters ✅
+
+inquiries about risk management approaches in a program and experiences in resolving conflicts
+
+4 Sum problem that required an optimized solution. ✅
+
+design a multi-tier cache system (RAM, SSD, HDD) with specific performance requirements and an LRU eviction policy, also involving the use of message queues for data formulation across tiers
+
+Design of ecommerce app. Then a segment tree question
+
+ Phone interview auestion on k'th largest element in an array. Solved it in a few different ways. The interviewer was looking for a specific answer (partitioning) and didn't know his big O. I explained to him that bceause my solution using heaps was asymptotically superior cuz it's O(nlogn) but he was under the impression that partitioning has a worst case complexity of O(n) (it's O(n^2). 
+
+Find minimum cost of building airports in n connected cities
+Implement a stack using linked list  ✅
+To reverse an array in-place.  ✅
+
+reverse linked list in group of given size, design food delivery service application, basic git implementation
+
+Inplace swapping of a string, level order traversal, boundary of a tree, 2 sum pair, 3 sum pair, Implement a filesystem, LRU Cache, Implement a text Editor.
+
+make a class for a library system , where in you can come and read a book or a text file , you can even change the content if you are authorised . while some one is working on the file you can not alter or read the file , basically it was shared access and threading problem .
+
+
+1. https://www.geeksforgeeks.org/merge-k-sorted-linked-lists-set-2-using-min-heap/
+
+
+Right side view 
+ DP and Graph (Minimum Spanning Tree).
+
+Design distributed rate limiting service
+Dutch national algo
+
+Telephonic interview: rotate a square matrix by 90 degrees in anti clockwise direction. Second question was to insert an element in a balanced binary tree.
+
+Given a tree (not a BST), if I make some other node the root node, how shall the tree change.
+Level order traversal of a binary tree using next pointers
+
+ Design an LRU cache which has some fixed capacity and evicts unused ntries
+questions on consensus framework on how to optimize for follower nodes
+
+
+Algorithm questions related to maps, arrays and double linked list.
+Burn the binary tree starting from the target node Given a binary tree and target node. By giving the fire to the target node and fire starts to spread in a complete tree. The task is to print the sequence of the burning nodes of a binary tree. Rules for burning the nodes : Fire will spread constantly to the connected nodes only. Every node takes the same time to burn. A node burns only once.
+
+Peak element in rotated sorted array
+Q2. String manipulation and string index access
+Detect cycle in undirected graph
+Sort zeroes to end of array
+Word Search Problem Backtracking Leetcode
+2 code signal programming questions
+Linked List Cycle
+
+
+Another specific coding question mentioned in an interview experience involved processing an array of city names. The task was to return a collection containing each city name along with the count of its repeated characters, with the city names in the final collection needing to be sorted. This problem combines string manipulation, character counting (potentially using a hash map or an array as a frequency counter), and sorting, demonstrating the breadth of skills tested in these interviews
+
+Beyond these, other coding questions reported for MTS-3 interviews include "Inversion count in an array" and "Job scheduling problem". Also mentioned are "Finding a pair of points with minimum distance," "searching an element in a rotated sorted array (using binary search)," and "print all valid parenthesis strings of brackets()". In a subsequent technical round, a candidate was asked to "Count pair of numbers whose sum is equal to a given target," with the expectation of handling all corner and edge cases. This question was then improved to "three sums equal to target," requiring the candidate to consider all cases of negative, positive, similar, and dissimilar elements. A "variant of maximum overlapping intervals (greedy approach using Line sweep)" was also part of the interview. This range of questions covers various DSA topics, including array manipulation, dynamic programming (as seen in job scheduling and potentially maximum overlapping intervals), searching and sorting (rotated sorted array, inversion count), and recursion or backtracking (valid parentheses). The progression from the two-sum problem to the three-sum problem is a common technique used by interviewers to assess a candidate's ability to generalize their solutions to more complex versions of a problem.  
+
+
+
+Coding/DSA	Variation of 4 Sum problem (optimized solution)	
+Coding/DSA	Substring without any repeating character	
+Coding/DSA	Burn tree	
+Coding/DSA	Segregate positive integers on one side and negative ones to another in an array, O(1) space	
+Coding/DSA	Longest Substring with K Distinct Characters	
+Coding/DSA	Given a String array with cities name, return a collection with city name and the count of repeated characters, the city names must be in sorted order	
+System Design	Design Multi tier cache (RAM: 100MB, SSD: 2TB, HDD; GET time increases with each tier; LRU eviction)	
+System Design	Given a server (512 MB ram & an SSD) & a highly scalable DB. SSD contains immutable map. Analyze bottlenecks when request calls increase (Server -> DB -> SSD -> SHA(y))	
+Follow-Up	Maintain the original order after segregating positive and negative integers	
+Follow-Up	Come up with the Low level design code for Multi tier Cache (in C++)	
+Follow-Up	Identify the first, second, etc., bottleneck in the server-DB-SSD architecture under high request volume	
+
+Variation of 4 Sum problem (optimized solution)Coding/DSAMore difficult variation of a T20 tagged Meta medium questionCoding/DSAT20 tagged Meta medium question verbatim (initially), then modified to a hard variationCoding/DSABoth T50 tagged Meta medium questions (one a variation)Coding/DSAInversion count in an arrayCoding/DSAJob scheduling problemCoding/DSAFinding a pair of points with minimum distanceCoding/DSASearching an element in a rotated sorted array (using binary search)Coding/DSAPrint all valid parenthesis strings of brackets()Coding/DSACount pair of numbers whose sum is equal to a given target (handle all corner and edge cases)Coding/DSAImproved version: three sums equal to target (all cases of negative, positive, similar, dissimilar elements)Coding/DSAVariant of maximum overlapping intervals (greedy approach using Line sweep)System DesignDesign Multi tier cache (RAM: 100MB, SSD: 2TB, HDD; GET time increases with each tier; LRU eviction)System DesignDesign a cache (LLD)System DesignGiven a server (512 MB ram & an SSD) & a highly scalable DB. SSD contains immutable map. Analyze bottlenecks when request calls increase (Server -> DB -> SSD -> SHA(y))Follow-UpMaintain the original order after segregating positive and negative integersFollow-UpExplain the approach for the hard variation of the Meta medium questionFollow-UpCome up with the Low level design code for Multi tier Cache (in C++)
+
+### Too Old Exp ####
+Asked me about Design Pattern for Multithreaded Server
+Inplace swapping of a string, level order traversal, boundary of a tree, 2 sum pair, 3 sum pair, Implement a filesystem, LRU Cache, Implement a text Editor.
+Questions where mostly analytical questions like find patterns in a string, bitmap implementation. Iterator implementation for STL type of classes. Windows storage and kernel, File I/O systems as well.
+https://www.geeksforgeeks.org/total-numbers-no-repeated-digits-range/
+https://www.geeksforgeeks.org/word-ladder-length-of-shortest-chain-to-reach-a-target-word/
+
+#######
+
+
+
+/***
+
+Design a service for web url recommendation given a bootstrap corpus of 1M urls.
+
+1. Return top (on frequency of visit) 5 urls as recommendation
+2. Should recover from crash.
+    Interna
+
+
+fac
+
+facebook.com
+factcheck.com
+faceball.com
+...
+...
+
+Objects
+1. URL manager - Singleton class, data structure
+2. URL - hold the url info, freq_count
+3. URLFetching Strategy - getUrlList()
+*/
+
+
+#include <iostream>
+#include <jsoncpp/json/json.h>
+#include<bits/stdc++.h>
+#include <vector>
+using namespace std;
+
+class URL {
+  private:
+    string address;
+    int freq;
+    
+    public:
+    URL(string address, int freq) {
+        this->address = address;
+        this->freq = freq;
+    }
+    
+    string getString() {
+      return this->address;
+    }
+    
+    bool 
+    
+    
+    
+    
+    
+    () {
+      this->freq += 1;
+    }
+};
+
+class URLFetchingStrategy {
+    public:
+      virtual vector<URL> getUrlList(string prefix) = 0;
+};
+
+class URLFetchFreq : public URLFetchingStrategy {
+    public:
+      vector<URL> getUrlList(string prefix) override {
+        
+      }
+};
+
+
+class URLManager {
+    public:
+      static URLManager *instance;
+      map<string, URL> urlLIst;
+      URLFetchingStrategy strategy;
+      mutex mtx;
+      
+      URLManager() {
+        
+      };
+      
+      static URLManager *getInstance() {
+        if (instance == NULL)
+          instance = new URLManager();
+        
+        return instance;
+      }
+      
+      vector<URL> fetchUrlList(string prefix, string ) {
+          lock_guard<mtx> lock;
+          return strategy.getUrlList(prefix, urlLIst);
+      }
+      
+      bool addURL(URL url) {
+        this->urlLIst[url.getString()] = url;
+        return true;
+      }
+      
+      bool removeURL(URL url) {
+        //urList.erase()
+      }
+      
+      bool updateURL(URL url) {
+        url.updatefreq();
+      }
+};
+
+
+
+int main() {
+  std::cout << "Hello world" << std::endl;
+  return 0;
+}
+
